@@ -1,0 +1,37 @@
+# ChromSeek runtime and notebook environment
+# Python 3.11-3.13 is recommended for these pinned versions.
+# (The source code itself requires Python >= 3.8; older interpreters need
+# older NumPy/SciPy/Pandas pins.)
+#
+# Default: NVIDIA CUDA 12.4 PyTorch wheel. The NVIDIA runtime libraries are
+# pulled in automatically by this wheel. The host still needs a compatible
+# NVIDIA driver. For a CPU-only machine, replace this line with torch==2.6.0.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+
+# Numerical and machine-learning dependencies
+numpy==2.4.5
+scipy==1.17.1
+scikit-learn==1.8.0
+scikit-image==0.26.0
+statsmodels==0.14.5
+
+# Plotting and tabular data
+matplotlib==3.10.9
+pandas==3.0.3
+tqdm==4.67.3
+
+# Hi-C / genome-file I/O used by cooler workflows and clinical_rna
+cooler==0.10.4
+h5py==3.16.0
+pyfaidx==0.9.0.4
+PyYAML==6.0.3
+
+# Reproduction report export
+python-docx==1.2.0
+
+# Jupyter notebooks and kernels
+jupyter==1.1.1
+jupyterlab==4.5.7
+notebook==7.5.6
+ipykernel==7.2.0
