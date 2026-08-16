@@ -1,4 +1,4 @@
-# Checkpoints
+# ChromSeek Checkpoints
 
 Before running the corresponding tasks in this repository, please visit the project
 [GitHub Releases page](https://github.com/zzzlnb/chromSeek/releases) and download the
