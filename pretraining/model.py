@@ -198,4 +198,4 @@ if __name__ == "__main__":
     print(f"Output 2D: {out_2d.shape}")
     assert out_1d.shape[-1] == 1120, "1D output shape is wrong!"
     assert out_2d.shape[-1] == 224, "2D output shape is wrong!"
-    print("Test passed.")
+    print("Test passed")
